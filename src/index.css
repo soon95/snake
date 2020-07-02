@@ -1,3 +1,10 @@
+body {
+    background-color: beige;
+}
+
+.top {
+    text-align: center;
+}
 
 .top h2 {
     display: inline;
@@ -7,7 +14,11 @@
     display: inline;
 }
 
-#canvas {
+.main {
+    margin: 0 auto;
+    width: 700px;
+}
 
+#canvas {
 
 }
