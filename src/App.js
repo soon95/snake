@@ -177,7 +177,7 @@ var App = /** @class */ (function () {
             x = Math.round(Math.random() * stepCount) * cellSize + axisFrom;
             y = Math.round(Math.random() * stepCount) * cellSize + axisFrom;
             flag = true;
-            flag = !this.snake.body.some(function (item) { return (x === item.y && y === item.y); });
+            flag = !this.snake.body.some(function (item) { return (x === item.x && y === item.y); });
         }
         console.log("食物坐标 x:", x, ",y:", y);
         return { x: x, y: y };

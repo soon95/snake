@@ -249,7 +249,7 @@ class App {
 
             flag = true
 
-            flag = !this.snake.body.some(item => (x === item.y && y === item.y))
+            flag = !this.snake.body.some(item => (x === item.x && y === item.y))
         }
 
         console.log("食物坐标 x:", x, ",y:", y)
